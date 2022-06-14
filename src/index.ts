@@ -30,7 +30,7 @@ const ruleFromStandard = (name: string): Linter.RuleEntry => {
   return JSON.parse(JSON.stringify(rule))
 }
 
-function fromEntries<T>(iterable: Array<[string, T]>): { [key: string]: T } {
+function fromEntries<T> (iterable: Array<[string, T]>): { [key: string]: T } {
   return [...iterable].reduce<{ [key: string]: T }>((obj, [key, val]) => {
     obj[key] = val
     return obj
@@ -169,4 +169,4 @@ const config: Linter.Config = {
   ]
 }
 
-export default config
+export = config

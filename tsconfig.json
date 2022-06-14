@@ -21,8 +21,7 @@
 
     /* Modules */
     "baseUrl": "./",
-    "module": "CommonJS",
-    // "moduleResolution": "Node",
+    "module": "Node16",
     "resolveJsonModule": true,
     "rootDir": "src",
 

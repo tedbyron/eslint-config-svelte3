@@ -1,6 +1,6 @@
 {
   "name": "@tedbyron/eslint-config-svelte3",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Teddy Byron <ted@tedbyron.com>",
   "license": "Apache-2.0",
   "repository": "github:tedbyron/eslint-config-svelte3",

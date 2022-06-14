@@ -5,6 +5,17 @@
   "license": "Apache-2.0",
   "repository": "github:tedbyron/eslint-config-svelte3",
   "description": "ESLint config for Svelte 3 with StandardJS and TypeScript",
+  "keywords": [
+    "svelte",
+    "eslint",
+    "eslintconfig",
+    "typescript",
+    "standardjs",
+    "standard",
+    "standard style",
+    "lint",
+    "style"
+  ],
   "main": "lib/index.js",
   "files": [
     "lib/index.js",

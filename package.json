@@ -18,10 +18,7 @@
   ],
   "main": "lib/index.js",
   "files": [
-    "lib/index.js",
-    "lib/index.d.ts",
-    "lib/eslint-config-standard.js",
-    "lib/eslint-config-standard.d.ts"
+    "lib/src/**/*"
   ],
   "packageManager": "yarn@3.2.1",
   "scripts": {

@@ -1,0 +1,42 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    /* Type Checking */
+    "strict": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+
+    /* Emit */
+    "outDir": "lib",
+    "importsNotUsedAsValues": "error",
+
+    /* Modules */
+    "baseUrl": "./",
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+
+    /* Interop Constraints */
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+
+    /* Language and Environment */
+    "lib": ["ESNext"],
+    "target": "ESNext",
+
+    /* Projects */
+    "composite": true,
+
+    /* Completeness */
+    "skipLibCheck": true
+  }
+}

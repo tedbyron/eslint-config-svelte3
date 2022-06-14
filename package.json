@@ -1,0 +1,39 @@
+{
+  "name": "@tedbyron/eslint-config-svelte3",
+  "version": "0.1.0",
+  "author": "Teddy Byron <ted@tedbyron.com>",
+  "license": "Apache-2.0",
+  "repository": "github:tedbyron/eslint-config-svelte3",
+  "description": "ESLint config for Svelte 3 with StandardJS and TypeScript",
+  "main": "lib/index.js",
+  "files": [
+    "lib/index.js",
+    "lib/index.d.ts",
+    "lib/eslint-config-standard.js",
+    "lib/eslint-config-standard.d.ts"
+  ],
+  "packageManager": "yarn@3.2.1",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.2",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-svelte3": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.4.3",
+    "@types/node": "^17.0.42",
+    "eslint": "^8.17.0",
+    "svelte": "^3.48.0",
+    "typescript": "^4.7.3"
+  },
+  "peerDependencies": {
+    "eslint": "*",
+    "typescript": "*"
+  }
+}

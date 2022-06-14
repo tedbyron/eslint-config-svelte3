@@ -15,14 +15,16 @@
     "allowUnreachableCode": false,
 
     /* Emit */
+    "declaration": true,
     "outDir": "lib",
     "importsNotUsedAsValues": "error",
 
     /* Modules */
     "baseUrl": "./",
-    "module": "ESNext",
-    "moduleResolution": "NodeNext",
+    "module": "CommonJS",
+    // "moduleResolution": "Node",
     "resolveJsonModule": true,
+    "rootDir": "src",
 
     /* Interop Constraints */
     "allowSyntheticDefaultImports": true,
@@ -34,7 +36,7 @@
     "target": "ESNext",
 
     /* Projects */
-    "composite": true,
+    "incremental": true,
 
     /* Completeness */
     "skipLibCheck": true

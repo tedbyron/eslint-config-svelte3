@@ -81,12 +81,13 @@ __metadata:
     eslint-plugin-n: ^15.2.2
     eslint-plugin-promise: ^6.0.0
     eslint-plugin-svelte3: ^4.0.0
+    prettier: ^2.7.0
     svelte: ^3.48.0
     typescript: ^4.7.3
   peerDependencies:
     eslint: ^8
     svelte: ^3
-    typescript: ^4
+    typescript: "*"
   languageName: unknown
   linkType: soft
 
@@ -1530,6 +1531,15 @@ __metadata:
   version: 1.2.1
   resolution: "prelude-ls@npm:1.2.1"
   checksum: cd192ec0d0a8e4c6da3bb80e4f62afe336df3f76271ac6deb0e6a36187133b6073a19e9727a1ff108cd8b9982e4768850d413baa71214dd80c7979617dca827a
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "prettier@npm:2.7.0"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 5b55bb1dced9d16635b83229df8e670d150890fdb343f19e8a66e610094a108e960c0f57352b3e5cdbc4eff4ef00a834406047ffcd9f20bd22a6497ba143c81f
   languageName: node
   linkType: hard
 

@@ -14,6 +14,7 @@ pnpm add -D @tedbyron/eslint-config-svelte3
 ```js
 module.exports = {
   extends: '@tedbyron/eslint-config-svelte3',
+  ignorePatterns: ['*.cjs', 'svelte.config.js'],
   settings: {
     'import/resolver': {
       typescript: {

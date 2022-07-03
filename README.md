@@ -9,13 +9,27 @@ yarn add -D @tedbyron/eslint-config-svelte3
 pnpm add -D @tedbyron/eslint-config-svelte3
 ```
 
-`.eslintrc.js`:
+`.eslintrc.cjs`:
 
 ```js
 module.exports = {
   extends: '@tedbyron/eslint-config-svelte3',
+  settings: {
+    'import/resolver': {
+      typescript: {
+        project: './tsconfig.json'
+      }
+    }
+  },
   parserOptions: {
-    project: './tsconfig.json'
+    project: './tsconfig.json',
+    tsconfigRootDir: __dirname
   }
 }
+```
+
+If using the VSCode ESLint extension, add `svelte` to the `eslint.validate` setting:
+
+```JSON
+"eslint.validate": ["javascript", "javascriptreact", "svelte"]
 ```

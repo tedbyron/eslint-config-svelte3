@@ -1,4 +1,5 @@
 lib
+*.tsbuildinfo
 
 node_modules
 .pnp.*

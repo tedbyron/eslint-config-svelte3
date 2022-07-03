@@ -1,7 +1,14 @@
 module.exports = {
   extends: './lib/index.js',
-  parserOptions: {
-    project: './tsconfig.json'
+  settings: {
+    'import/resolver': {
+      typescript: {
+        project: './tsconfig.json'
+      }
+    }
   },
-  rules: {}
+  parserOptions: {
+    project: './tsconfig.json',
+    tsconfigRootDir: __dirname
+  }
 }

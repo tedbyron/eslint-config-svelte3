@@ -1,0 +1,3 @@
+[submodule "eslint-config-standard-with-typescript"]
+	path = eslint-config-standard-with-typescript
+	url = https://github.com/standard/eslint-config-standard-with-typescript

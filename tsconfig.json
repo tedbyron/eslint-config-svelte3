@@ -2,22 +2,23 @@
   "include": ["src/**/*"],
   "compilerOptions": {
     /* Type Checking */
-    "strict": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
     "alwaysStrict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedIndexedAccess": true,
-    "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "allowUnusedLabels": false,
-    "allowUnreachableCode": false,
+    "strict": true,
 
     /* Emit */
     "declaration": true,
-    "outDir": "lib",
     "importsNotUsedAsValues": "error",
+    "outDir": "lib",
+    "sourceMap": true,
 
     /* Modules */
     "baseUrl": "./",

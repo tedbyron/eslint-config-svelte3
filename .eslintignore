@@ -1,7 +1,4 @@
+.yarn
+eslint-config-standard-with-typescript
 lib
-
 node_modules
-.pnp.*
-.yarn/*
-
-.DS_Store
